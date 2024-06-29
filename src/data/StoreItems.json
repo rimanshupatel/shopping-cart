@@ -1,0 +1,352 @@
+
+[
+    {
+     "id": 1,
+     "title": "printed suit",
+     "description": "women western design",
+     "image" : "/src/images/2.jpg",
+     "discountprice": 999,
+     "Realprice": 434,
+     "discount": 77,
+     "rating": {
+      "rate" : 4.2
+     }
+   },
+   {
+       "id": 2,
+       "title": "KALINI",
+       "description": "Kurta With Trousers & Dupatta",
+       "image" : "/src/images/5.jpg",
+       "discountprice": 999,
+       "Realprice": 434,
+       "discount": 77,
+       "rating": {
+        "rate" : 4.2
+       }
+     },   {
+       "id": 3,
+       "title": "Pink suit",
+       "description": "Pink suit & Dupatta",
+       "image" : "/src/images/4.jpg",
+       "discountprice": 999,
+       "Realprice": 434,
+       "discount": 77,
+       "rating": {
+        "rate" : 4.2
+       }
+     },   {
+       "id": 4,
+       "title": "yellow suit",
+       "image" : "/src/images/6.jpg",
+       "description": "Kurta With Trousers & Dupatta",
+       "discountprice": 999,
+       "Realprice": 434,
+       "discount": 77,
+       "rating": {
+        "rate" : 4.2
+       }
+     }
+     ,   {
+      "id": 5,
+      "title": "yellow suit",
+      "image" : "/src/images/6.jpg",
+      "description": "Kurta With Trousers & Dupatta",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }
+    ,   {
+      "id": 6,
+      "title": "yellow suit",
+      "image" : "/src/images/7.jpg",
+      "description": "Kurta With Trousers & Dupatta",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }
+    ,   {
+      "id": 7,
+      "title": "beauty fashion",
+      "image" : "/src/images/16.jpg",
+      "description": "pink premium sarees",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }
+    ,   {
+      "id": 8,
+      "title": "winered",
+      "image" : "/src/images/34.jpg",
+      "description": "geometry printed geogratte ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }    ,   {
+      "id": 9,
+      "title": "checlos",
+      "image" : "/src/images/35.jpg",
+      "description": "top with shorts co-ords ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }    ,   {
+      "id": 10,
+      "title": "shovaksho",
+      "image" : "/src/images/33.jpg",
+      "description": "pink suits with dupatta ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }
+    ,   {
+      "id": 11,
+      "title": "queiro",
+      "image" : "/src/images/39.jpg",
+      "description": "Men's white premiume design cargo ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }
+    ,   {
+      "id": 12,
+      "title": "hancock",
+      "image" : "/src/images/38.jpg",
+      "description": "Men's blue shirt ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }
+    ,   {
+      "id": 13,
+      "title": "josyly",
+      "image" : "/src/images/40.jpg",
+      "description": "Men's black trouser ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }
+    ,   {
+      "id": 14,
+      "title": "premium texture shirt",
+      "image" : "/src/images/37.jpg",
+      "description": "Men's shirt  ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    },
+       {
+      "id": 15,
+      "title": "premium trouser",
+      "image" : "/src/images/43.jpg",
+      "description": "Men's green trouser ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    },
+    {
+      "id": 16,
+      "title": "premium trouser",
+      "image" : "/src/images/44.jpg",
+      "description": "Men's green trouser ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    },
+    {
+      "id": 17,
+      "title": "premium trouser",
+      "image" : "/src/images/45.jpg",
+      "description": "Men's green trouser ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    },
+    {
+      "id": 18,
+      "title": "premium trouser",
+      "image" : "/src/images/46.jpg",
+      "description": "Men's green trouser ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }
+    ,   {
+      "id": 19,
+      "title": "premium cargo",
+      "image" : "/src/images/11.jpg",
+      "description": "Men's white premiume design cargo ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }
+    ,   {
+      "id": 20,
+      "title": "premium shirt",
+      "image" : "/src/images/12.jpg",
+      "description": "Men's blue shirt ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }
+    ,   {
+      "id": 21,
+      "title": "premium trouser",
+      "image" : "/src/images/13.jpg",
+      "description": "Men's black trouser ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }
+    ,   {
+      "id": 22,
+      "title": "premium texture shirt",
+      "image" : "/src/images/14.jpg",
+      "description": "Men's shirt  ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    },
+       {
+      "id": 23,
+      "title": "premium trouser",
+      "image" : "/src/images/15.jpg",
+      "description": "Men's green trouser ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    },
+    {
+      "id": 24,
+      "title": "premium trouser",
+      "image" : "/src/images/16.jpg",
+      "description": "Men's green trouser ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    },
+    {
+      "id": 25,
+      "title": "premium trouser",
+      "image" : "/src/images/15.jpg",
+      "description": "Men's green trouser ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    },
+    {
+      "id": 26,
+      "title": "premium trouser",
+      "image" : "/src/images/15.jpg",
+      "description": "Men's green trouser ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    },
+    {
+      "id": 27,
+      "title": "premium trouser",
+      "image" : "/src/images/15.jpg",
+      "description": "Men's green trouser ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    },
+    {
+      "id": 28,
+      "title": "premium trouser",
+      "image" : "/src/images/15.jpg",
+      "description": "Men's green trouser ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    },
+    
+    {
+      "id":29,
+      "title": "premium trouser",
+      "image" : "/src/images/15.jpg",
+      "description": "Men's green trouser ",
+      "discountprice": 999,
+      "Realprice": 434,
+      "discount": 77,
+      "rating": {
+       "rate" : 4.2
+      }
+    }
+ ]
+  
+ 
+
+
