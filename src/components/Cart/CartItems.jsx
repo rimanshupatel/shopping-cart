@@ -1,5 +1,7 @@
 import React from "react";
 import { IoClose } from "react-icons/io5";
+import { Remove_Items, increment } from "../../App/Slice";
+import { useDispatch } from "react-redux";
 const CartItems = ({
   id,
   title,
@@ -8,8 +10,10 @@ const CartItems = ({
   discountprice,
   Realprice,
   discount,
+  quantity,
 }) => {
   const itemName = title.substring(0, 19);
+  const dispatch = useDispatch();
   return (
     <div
       key={id}
@@ -62,10 +66,36 @@ const CartItems = ({
               <span className="font-bold"> 14 days</span> return available
             </div>
           </div>
+          <div>
+            <button
+              onClick={() => {
+                dispatch(increment({ id }));
+              }}
+            >
+              +
+            </button>
+            <input type="number" min="1" max="9" id="cartInput" />
+            <button>-</button>
+          </div>
         </div>
       </div>
       <div className="text-2xl">
-        <button>
+        <button
+          onClick={() => {
+            dispatch(
+              Remove_Items({
+                id,
+                title,
+                description,
+                image,
+                discountprice,
+                Realprice,
+                discount,
+                quantity,
+              })
+            );
+          }}
+        >
           <IoClose />
         </button>
       </div>

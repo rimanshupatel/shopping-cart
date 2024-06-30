@@ -4,8 +4,12 @@ import Banner from "../components/banner/Banner";
 const Store = () => {
   return (
     <>
-      <Banner />
-      <ProductsList />
+      <section>
+        <Banner />
+        <div className="container m-auto text-black bg-white font-1 capitalize  my-4 px-3">
+          <ProductsList />
+        </div>
+      </section>
     </>
   );
 };

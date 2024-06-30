@@ -23,3 +23,7 @@ body {
 .borderTopStyle {
   border-top: 1px solid #eaeaec;
 }
+
+#cartInput {
+  -webkit-appearance: none;
+}

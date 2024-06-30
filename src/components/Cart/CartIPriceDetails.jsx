@@ -9,8 +9,9 @@ const CartItemsPriceDetails = () => {
   const TotalPrice = cartItems.reduce((totalPrice, item) => {
     return totalPrice + item.Realprice;
   }, 0);
-  console.log(TotalQuantity);
-  console.log(TotalPrice);
+  const TotalDiscountPrice = cartItems.reduce((DiscountPrice, item) => {
+    return DiscountPrice + item.discountprice;
+  }, 0);
   return (
     <div className="w-[22rem] ">
       <div className="p-4">
@@ -21,14 +22,16 @@ const CartItemsPriceDetails = () => {
           <div className="mb-2  flex justify-between capitalize">
             <h3>Total MRP</h3>
             <p>
-              <span>₹</span> 434
+              <span>₹</span>
+              {TotalPrice}
             </p>
           </div>
           <div className="mb-2  flex justify-between ">
             <h3>Discount on MRP</h3>
             <p className="text-green-600">
               <span>- </span>
-              <span>₹</span>434
+              <span>₹</span>
+              {TotalDiscountPrice}
             </p>
           </div>
           <div className="mb-2  flex justify-between capitalize">
@@ -46,7 +49,7 @@ const CartItemsPriceDetails = () => {
             </div>
           </div>
           <div>
-            <button className="py-2  w-full btnColor text-white ">
+            <button className="py-2  w-full bg-[#FF3F6C] text-white ">
               Place order
             </button>
           </div>
