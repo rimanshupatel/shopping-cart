@@ -3,18 +3,19 @@ import { useSelector } from "react-redux";
 const CartItemsPriceDetails = () => {
   const cartItems = useSelector((state) => state.ShoppingCart.cart);
 
-  let TotalMrp;
-  for (let i = 0; i < cartItems.length; i++) {
-    const cartItemsObj = cartItems[i];
-    TotalMrp = cartItemsObj.RealPrice;
-    console.log(TotalMrp);
-  }
-
+  const TotalQuantity = cartItems.reduce((totalQuantity, item) => {
+    return totalQuantity + item.quantity;
+  }, 0);
+  const TotalPrice = cartItems.reduce((totalPrice, item) => {
+    return totalPrice + item.Realprice;
+  }, 0);
+  console.log(TotalQuantity);
+  console.log(TotalPrice);
   return (
     <div className="w-[22rem] ">
       <div className="p-4">
         <div className="my-4 font-semibold text-xl capitalize">
-          price details <span>(3 items)</span>
+          price details <span>{`(${TotalQuantity} items)`}</span>
         </div>
         <div className="text-[17px] text-[#282c3f]">
           <div className="mb-2  flex justify-between capitalize">
@@ -40,7 +41,7 @@ const CartItemsPriceDetails = () => {
             <div className="mb-2 font-bold text-[#282c3f] flex justify-between capitalize">
               <h3>Total Amout</h3>
               <p>
-                <span>₹</span> 434
+                <span>₹</span> {TotalPrice}
               </p>
             </div>
           </div>

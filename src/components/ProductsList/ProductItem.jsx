@@ -65,6 +65,7 @@ const ProductItem = ({
                       discountprice,
                       Realprice,
                       discount,
+                      quantity: 1,
                     })
                   );
                 }}
